@@ -1,7 +1,7 @@
-require('simple-bundler')
+require('jex-bundler')
 
-    .pug('src/index.pug', 'public')
+	.pug('src/pug/[^_]*.pug', 'public')
 
-    .sass('src/sass/app.sass', 'public')
+	.sass('src/sass/app.sass', 'public/css')
 
-    .js('src/js/app.js', 'public')
+	.js('src/js/app.js', 'public/js')

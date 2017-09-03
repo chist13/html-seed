@@ -7,6 +7,6 @@
   },
   "author": "Mantulenko Nikolai <chist13p@gmail.com> (https://github.com/chist13)",
   "devDependencies": {
-    "simple-bundler": "^1.1.3"
+    "jex-bundler": "^1.1.0"
   }
 }

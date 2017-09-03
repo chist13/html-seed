@@ -1,7 +1,14 @@
-@import '../../node_modules/simple-bundler/index.sass'
+@import 'variables'
+@import 'mixins'
+
+html
+	box-sizing: border-box
+	*, *:after, *:before
+		box-sizing: inherit
 
 body, html
-    height: 100%
+	height: 100%
 body
-    +flex-center
-    border: 1em solid $accent
+	display: flex
+	margin: 0
+	border: 1em solid $primary
