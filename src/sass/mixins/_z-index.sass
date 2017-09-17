@@ -1,5 +1,5 @@
 =z
-  @if map-has-key($z-map, $key)
-    z-index: map-get($z-map, $key)
-  @else
-    @warn "Unknown `#{$key}` in $z-map"
+	@if map-has-key($z-map, $key)
+		z-index: map-get($z-map, $key)
+	@else
+		@warn "Unknown `#{$key}` in $z-map"
